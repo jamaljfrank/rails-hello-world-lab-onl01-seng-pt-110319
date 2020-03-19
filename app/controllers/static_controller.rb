@@ -1,4 +1,4 @@
 class StaticController < ApplicationController
   def hello_world
-  end
+    render "hello_world"
 end
